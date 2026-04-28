@@ -11,7 +11,7 @@ app.use(cookieParser());
 
 
 app.use(cors({
-    origin: "*",
+    origin: "https://interview-resume-analyser.vercel.app",
     credentials: true
 }));
 
